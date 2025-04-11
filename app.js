@@ -55,7 +55,7 @@ const productos = {
     {
       nombre: "Limonada",
       precio: 3500,
-      descripcion: "Agua saborizada con frutas",
+      descripcion: "Limonada natural",
       imagen: "https://www.cocinatis.com/archivos/202207/CTIS0042-receta-limonada_mobile_horizontal_full_width.jpg",
     },
   ],
@@ -75,7 +75,7 @@ function cargarProductos() {
           <h4>${prod.nombre}</h4>
           <img src="${prod.imagen}" alt="${prod.nombre}" />
           <p>${prod.descripcion}</p>
-          <p>$${prod.precio.toFixed(2)}</p>
+          <p>$${prod.precio.toFixed(0)}</p>
           <button onclick='agregarAlCarrito(${JSON.stringify(
             prod
           )})'>Agregar</button>
@@ -95,7 +95,7 @@ function actualizarCarrito() {
   let total = 0;
   carrito.forEach((item, index) => {
     const li = document.createElement("li");
-    li.innerHTML = `${item.nombre} - $${item.precio.toFixed(2)} 
+    li.innerHTML = `${item.nombre} - $${item.precio.toFixed(0)} 
         <button onclick="eliminarDelCarrito(${index})">Eliminar</button>`;
     listaCarrito.appendChild(li);
     total += item.precio;
