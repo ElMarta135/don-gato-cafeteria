@@ -2,22 +2,34 @@ const productos = {
   cafes: [
     {
       nombre: "Espresso",
-      precio: 2000,
+      precio: 2.000,
       descripcion: "Café intenso",
-      imagen:
-        "https://media.scoolinary.app/blog/images/2022/10/Cafe%CC%81-y-cocktails_IVI8151.jpg",
+      imagen: "https://www.cuisinart.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-us-cuisinart-sfra-Library/default/dw2ca0aa66/images/recipe-Images/cafe-latte1-recipe.jpg?sw=1200&sh=1200&sm=fit",
     },
     {
       nombre: "Latte",
-      precio: 3000,
+      precio: 3.000,
       descripcion: "Con leche espumada",
-      imagen: "https://via.placeholder.com/100",
+      imagen: "https://www.cuisinart.com/recipes/beverages/cafe-latte-recipe.html",
     },
+    {
+      nombre: "Americano",
+      precio: 3.000,
+      descripcion: "Shot de espresso con aguaa",
+      imagen: "https://www.cuisinart.com/recipes/beverages/cafe-latte-recipe.html",
+    },
+    {
+      nombre: "Café helado",
+      precio: 3.000,
+      descripcion: "Café con scoop de helado",
+      imagen: "https://www.cuisinart.com/recipes/beverages/cafe-latte-recipe.html",
+      },
+      
   ],
   postres: [
     {
       nombre: "Cheesecake",
-      precio: 3500,
+      precio: 3.500,
       descripcion: "Tarta de queso",
       imagen: "https://via.placeholder.com/100",
     },
@@ -25,7 +37,7 @@ const productos = {
   bebidas: [
     {
       nombre: "Té helado",
-      precio: 2500,
+      precio: 2.500,
       descripcion: "Refrescante",
       imagen: "https://via.placeholder.com/100",
     },
