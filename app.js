@@ -15,7 +15,7 @@ const productos = {
     {
       nombre: "Americano",
       precio: 2500,
-      descripcion: "Shot de espresso con aguaa",
+      descripcion: "Shot de espresso con agua",
       imagen: "https://elsumario.com/wp-content/uploads/2022/09/americano.jpg",
     },
     {
