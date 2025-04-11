@@ -1,13 +1,13 @@
 const productos = {
     cafes: [
-      { nombre: "Espresso", precio: 2.5, descripcion: "Café intenso", imagen: "https://via.placeholder.com/100" },
-      { nombre: "Latte", precio: 3.0, descripcion: "Con leche espumada", imagen: "https://via.placeholder.com/100" }
+      { nombre: "Espresso", precio: 2000, descripcion: "Café intenso", imagen: "https://via.placeholder.com/100" },
+      { nombre: "Latte", precio: 3000, descripcion: "Con leche espumada", imagen: "https://via.placeholder.com/100" }
     ],
     postres: [
-      { nombre: "Cheesecake", precio: 4.0, descripcion: "Tarta de queso", imagen: "https://via.placeholder.com/100" }
+      { nombre: "Cheesecake", precio: 3500, descripcion: "Tarta de queso", imagen: "https://via.placeholder.com/100" }
     ],
     bebidas: [
-      { nombre: "Té helado", precio: 2.0, descripcion: "Refrescante", imagen: "https://via.placeholder.com/100" }
+      { nombre: "Té helado", precio: 2500, descripcion: "Refrescante", imagen: "https://via.placeholder.com/100" }
     ]
   };
   
