@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cafetería Don Gato</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Cafetería Don Gato</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#carrito">Carrito</a></li>
+        <li><a href="#pago">Pago</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Menú</h2>
+      <div class="categorias">
+        <div class="categoria" id="cafes">
+          <h3>Cafés</h3>
+          <div class="productos"></div>
+        </div>
+        <div class="categoria" id="postres">
+          <h3>Postres</h3>
+          <div class="productos"></div>
+        </div>
+        <div class="categoria" id="bebidas">
+          <h3>Bebidas frías</h3>
+          <div class="productos"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="lista-carrito"></ul>
+      <p>Total: $<span id="total">0.00</span></p>
+    </section>
+
+    <section id="pago">
+      <h2>Pago Electrónico</h2>
+      <form id="form-pago">
+        <input type="text" placeholder="Nombre" required />
+        <input type="text" placeholder="Número de Tarjeta" required />
+        <input type="text" placeholder="MM/AA" required />
+        <input type="text" placeholder="CVV" required />
+        <button type="submit">Pagar</button>
+      </form>
+      <p id="confirmacion" class="oculto">¡Pago realizado con éxito! ☕</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Cafetería Don Gato</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
